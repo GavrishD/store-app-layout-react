@@ -1,0 +1,21 @@
+.favourite {
+    padding: 100px 0 100px 0;
+}
+
+.favourite__header {
+    position: relative;
+}
+
+.favourite__header::before {
+    left: 280px;
+    bottom: 0;
+}
+
+.favourite__title {}
+
+.favourite__cards {
+    margin: 104px 0 0;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 40px;
+}

@@ -1,0 +1,50 @@
+.footer {
+    padding: 120px 0 145px 0;
+    color: var(--grayText);
+    background-color: #000;
+    font-size: 20px;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.footer__contacts {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 32px;
+}
+
+.footer__logo {
+    color: #fff;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.footer__text {}
+
+.footer__social {
+    display: flex;
+    gap: 14px;
+}
+
+.footer__items {
+    display: flex;
+    column-gap: 150px;
+}
+
+.footer__item {}
+
+.item__title {
+    margin: 0 0 34px 0;
+    color: #fff;
+}
+
+.footer__item ul {}
+
+.footer__item li:not(:last-child) {
+    margin: 0 0 30px 0;
+}
+

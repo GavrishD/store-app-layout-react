@@ -1,0 +1,12 @@
+.brands {
+    padding: 58px 0;
+    background-color: var(--yellow);
+}
+
+.brands__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 74px;
+}

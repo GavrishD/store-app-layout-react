@@ -1,0 +1,21 @@
+.arrivals {
+    padding: 120px 0 140px;
+}
+
+.arrival__header {
+    position: relative;
+    text-transform: uppercase;
+}
+.arrival__header::before {
+    left: 185px;
+    bottom: 5px;
+}
+
+.arrivals__title {}
+
+.arrivals__cards {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    margin: 125px 0 0;
+}

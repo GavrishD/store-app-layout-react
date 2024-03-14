@@ -1,0 +1,53 @@
+.community {
+    padding: 140px 0;
+    text-align: center;
+    color: #fff;
+    background-color: var(--yellowCommunity);
+}
+
+.community h3 {
+    padding: 0 0 35px 0;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.community p {
+    padding: 0 0 45px 0;
+    font-size: 32px;
+}
+
+.community h3,
+.community p {
+    width: 1010px;
+    margin: 0 auto;
+}
+
+
+.community__form {
+    display: flex;
+    justify-content: space-between;
+    max-width: 580px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.community__form input {
+    padding: 17px;
+    color: var(--grayPlaceholder);
+    background-color: transparent;
+    font-size: 24px;
+
+}
+
+.community__form button {
+    padding: 16px 36px;
+    border-radius: 8px;
+    background-color: #000;
+    font-weight: 500;
+    font-size: 33px;
+}
